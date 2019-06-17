@@ -101,9 +101,8 @@ void Lista_Nodos<T>::mostrar_Lista(){
 
 /*template <class T>
 void Lista_Nodos<T>::eliminar_Nodo()
-
 */
-/*
+
 template <class T>
 class iterador{
 public:
@@ -129,7 +128,7 @@ public:
     bool operator!=(const iterador<T> &compara){
         return nodo_inicial!=compara.nodo_inicio;
     }
-};*/
+};
 int main(){
 
 Lista_Nodos<char> prueba;
