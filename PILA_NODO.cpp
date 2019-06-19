@@ -46,27 +46,6 @@ void Pila<T>::insertar_inicio(T dato){
         while(nodo_recorre==NULL){
             nodo_recorre=nodo_recorre->siguiente;
         }
-        /*inicio=nuevo_Nodo;
-    if(tam_lista==1)
-        fin=nuevo_Nodo;
-    }*/
-}
-}
-/*template<class T>
-void Pila<T>::insertar_final(T dato){
-    Nodo<T> *nuevo_Nodo=new Nodo<T>(dato);
-    Nodo<T> *nodo_recorre=nodo_inicio;
-    if(!nodo_inicio){
-        nodo_inicio=nuevo_Nodo;
-    }
-    else{
-        while(nodo_recorre->siguiente!=NULL){
-            nodo_recorre=nodo_recorre->siguiente;
-        }
-        nodo_recorre->siguiente=nuevo_Nodo;
-    }
-    tam_lista++;
-}*/
 
 template<class T>
 void Pila<T>::mostrar_Lista(){
