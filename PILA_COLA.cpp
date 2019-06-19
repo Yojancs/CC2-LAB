@@ -78,11 +78,11 @@ void Pila<T>::extraer(){
 
 template<class T>
 class cola{
+Nodo<T> *nodoinicial;
+Nodo<T> *cabeza;
+int tam_lista;
 public:
-    Nodo<T> *nodoinicial;
-    Nodo<T> *cabeza;
-    int tam_lista;
-    cola(){
+       cola(){
        nodoinicial=NULL;
        tam_lista=0;
     }
@@ -126,7 +126,7 @@ void cola<T>::mostrar_cola(){
             Nodo<T> *temporal =nodoinicial;
             if (nodoinicial==NULL)
             {
-                cout <<"La cola no tiene elementos:"<<endl;
+                cout <<"La cola no tiene elementos:"<<endl;PILA_COLA
             }
             else{
                 while(temporal){
